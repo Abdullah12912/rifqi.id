@@ -1,6 +1,6 @@
 # Success Metrics
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -21,12 +21,13 @@
 - **Target Threshold**: \(100\%\).
 - **Actionable Correction**: A local CLI script audit will identify database records missing from the search index and re-index them automatically.
 
-## Metric 3: Entity Connectivity
-- **Metric Definition**: The ratio of entities that have at least one defined link to another entity.
+## Metric 3: Connected Knowledge Growth (North Star Metric)
+- **Metric Definition**: The net monthly expansion of semantically connected entities (entities with at least one active relation to another entity) within the database.
 - **Measurement Method**: Calculated as:
-  \[\text{Entity Connectivity} = \frac{\text{Entities with } \ge 1 \text{ Relationship}}{\text{Total Database Entities}} \times 100\]
-- **Target Threshold**: \(\ge 85\%\).
-- **Actionable Correction**: The Studio workspace workspace analyzer will highlight "orphaned" entities (nodes with 0 incoming or outgoing links) in red, suggesting relevant connections.
+  \[\text{Connected Knowledge Growth (CKG)} = C_t - C_{t-1}\]
+  Where \(C_t\) is the count of connected entities at the end of the current month, and \(C_{t-1}\) is the count at the end of the previous month.
+- **Target Threshold**: \(\ge 15\) new connected entities per month.
+- **Actionable Correction**: If growth falls below the threshold, the Studio workspace will prompt the owner with content creation suggestions, highlighting partially drafted Ideas or unlinked Books to encourage completion and linking.
 
 ## Metric 4: Single Source of Truth
 - **Metric Definition**: The percentage of data fields in the public Web application that are sourced directly from the private Workspace database, rather than hardcoded.

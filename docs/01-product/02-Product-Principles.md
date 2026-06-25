@@ -1,6 +1,6 @@
 # Product Principles
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -10,8 +10,8 @@
 ## Principle 1: Data Sovereignty First
 - **Statement**: The owner must possess absolute control and ownership over all data, structures, and metadata.
 - **Explanation**: The platform must store data in non-proprietary, standard, human-readable formats (such as markdown, JSON, or plain SQL files) that can be read, transferred, and parsed without depending on the Rifqi codebase or any proprietary third-party software.
-- **Rationale**: Third-party SaaS companies and data formats will inevitably close down, change pricing, or deprecate APIs. Standard format files stored locally or on owned storage can be read indefinitely.
-- **Practical Example**: All notes are stored as flat files containing frontmatter metadata. Even if the entire application layer of Rifqi is destroyed, the owner can open any text editor and read every note.
+- **Rationale**: Third-party SaaS companies and data formats will inevitably close down, change pricing, or deprecate APIs. Standard format files stored in owner-controlled repositories or standard databases can be read indefinitely.
+- **Practical Example**: All notes are stored as standard flat files or structured database records containing frontmatter metadata. Even if the application layer of Rifqi is destroyed, the owner can query and read every note using any standard database viewer or file editor.
 
 ## Principle 2: Separation of Workspace and Presentation
 - **Statement**: Private workspaces and public web interfaces must remain entirely decoupled.
@@ -61,11 +61,11 @@
 - **Rationale**: To function as an effective cognitive extension, retrieval times must be near-zero. Users should not navigate hierarchies; they should search or click direct links.
 - **Practical Example**: The system assigns a unique, immutable slug or ID to every Goal, Article, and Book, allowing the user to search "database design" and find all linked items across domains.
 
-## Principle 10: Local-First Offline Capability
-- **Statement**: The primary workspace must remain fully functional without active internet connectivity.
-- **Explanation**: Reading, writing, organizing, and searching the private workspace must be supported locally. Remote syncing is treated as an asynchronous optimization.
-- **Rationale**: Internet connections are intermittent, and developer workflows should not be blocked by network latency, server downtime, or remote authentication errors.
-- **Practical Example**: The private studio application runs a local database instance. Writing and editing notes can be done entirely in an airplane cabin, syncing changes back when connection is restored.
+## Principle 10: Cloud-Native Architecture
+- **Statement**: The platform is built using a cloud-native model to ensure scalability, central coordination, and cross-device availability.
+- **Explanation**: The primary source of truth resides on secure cloud infrastructure, allowing the owner to access and manage their Digital Headquarters from any location or device with consistent state synchronization.
+- **Rationale**: A cloud-native foundation removes physical server dependencies, simplifies deployment, provides instant cross-device updates, and enables reliable integration of cloud-based APIs and systems.
+- **Practical Example**: The studio workspace is deployed securely to a cloud environment. The owner can securely edit documents or track tasks from both a laptop and a mobile client, with all changes immediately synchronized to the central cloud database.
 
 ---
 

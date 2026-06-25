@@ -1,6 +1,6 @@
 # Masterplan
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -44,14 +44,14 @@ To enforce a strict separation of concerns, Rifqi is structured around six core 
 
 ## Guiding Principles
 
-- **Local Ownership First**: Data is stored in open, standard, human-readable formats under direct owner control.
+- **Owner Data Sovereignty**: Data is stored in open, standard, human-readable formats under direct owner control.
 - **Readability Over Speed**: Code and architecture must be clear, clean, and self-documenting to facilitate maintenance across decades.
 - **Consistency Over Cleverness**: Simple, repeatable design patterns must be preferred to reduce cognitive overhead during future updates.
 - **Semantic Connectivity**: Information is only valuable when linked. Every entity should relate to at least one other entity.
 
 ## North Star
 
-The North Star metric is **Entity Connectivity**. This is measured as the ratio of connected entities (entities with at least one active relation to another entity) to total entities in the Digital Headquarters. A high connectivity ratio ensures that the system functions as a coherent knowledge graph rather than a graveyard of isolated files.
+The North Star metric is **Connected Knowledge Growth (CKG)**. This measures the net expansion of the semantically connected entities (Learnings, Projects, Articles, Books, Goals) in the Digital Headquarters. A steady increase in connected knowledge indicates that the system is successfully functioning as a compounding cognitive engine rather than a graveyard of isolated files.
 
 ## Success Definition
 

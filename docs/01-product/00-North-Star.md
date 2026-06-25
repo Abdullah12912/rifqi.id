@@ -1,6 +1,6 @@
 # North Star
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -21,11 +21,11 @@ Rifqi is a Personal Operating System designed for long-term scalability and main
 
 ## North Star Metric
 
-The North Star Metric of Rifqi is the **Workspace-to-Web Semantic Linkage Ratio**. 
+The North Star Metric of Rifqi is **Connected Knowledge Growth (CKG)**. 
 
-This metric evaluates the efficiency of knowledge transition from the private workspace to the public web interface. It is calculated by dividing the number of public-facing entities (Articles, Projects, Learnings) that contain active, bidirectional semantic references to internal, private reference models (such as Books, Goals, or Technology entities) by the total number of public-facing entities.
+This metric measures the net monthly expansion of semantically connected entities (Learnings, Projects, Articles, Books, Goals) within the Digital Headquarters. A connected entity is defined as any entity that has at least one active relation to another entity.
 
-A high Workspace-to-Web Semantic Linkage Ratio guarantees that the public website is a direct, authentic reflection of active intellectual progress in the private workspace, preventing the public website from becoming a stagnant showcase.
+Connected Knowledge Growth represents long-term product success because it directly tracks the development and expansion of the owner's second brain. As the knowledge graph grows and the density of connections increases, the compounding value of the information stored in the Digital Headquarters scales, making cognitive retrieval and future AI-assisted reasoning far more powerful and relevant.
 
 ---
 

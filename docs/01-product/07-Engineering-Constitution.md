@@ -1,6 +1,6 @@
 # Engineering Constitution
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -46,7 +46,7 @@
 ## Article 7: Decision by ADR (Architecture Decision Record)
 - **Rule**: Significant architectural decisions, package additions, or database schema pivots must be proposed, debated, and approved using an ADR in `docs/decisions/`.
 - **Explanation**: Documentation of decisions preserves the context and rationale for future maintainers, preventing the recurrence of discarded design patterns.
-- **Example**: Deciding on a specific local database engine must be recorded in an ADR detailing the alternatives considered and consequences.
+- **Example**: Deciding on a specific database engine must be recorded in an ADR detailing the alternatives considered and consequences.
 - **Consequences**: Architectural changes introduced without an approved ADR will be rolled back.
 
 ## Article 8: Consistency Over Cleverness
@@ -64,7 +64,7 @@
 ## Article 10: Internal Workspace Owns the Data
 - **Rule**: The private Workspace (Studio) is the absolute authority for data creation, mutation, and state management; the Web app is strictly a read-only viewer.
 - **Explanation**: Decoupling the write and read interfaces protects the core data store from external security vulnerabilities and performance bottlenecks.
-- **Example**: The Web app performs read queries on a compiled cache or read-only database replica, while write operations can only be executed within the secure, local Studio app.
+- **Example**: The Web app performs read queries on a compiled cache or read-only database replica, while write operations can only be executed within the secure, authenticated Studio app.
 - **Consequences**: Public Web routes will never contain logic that creates, updates, or deletes database records.
 
 ---

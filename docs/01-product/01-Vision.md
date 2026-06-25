@@ -1,6 +1,6 @@
 # Vision
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -9,7 +9,7 @@
 
 ## Digital Headquarters
 
-Rifqi is designed as a Digital Headquarters—the central server and command hub of the owner's digital life. It is founded on the philosophical premise that digital workspaces should be as permanent and customizable as physical buildings. The Digital Headquarters provides a single, controlled environment where databases, interfaces, publishing pipelines, and workflows converge. It serves as the master coordinator for all personal and professional output, removing the operational boundaries that typically separate local notebooks, public servers, and organizational tools.
+Rifqi is designed as a Digital Headquarters—the central server and command hub of the owner's digital life. It is founded on the philosophical premise that digital workspaces should be as permanent and customizable as physical buildings. The Digital Headquarters provides a single, controlled environment where databases, interfaces, publishing pipelines, and workflows converge. It serves as the master coordinator for all personal and professional output, removing the operational boundaries that typically separate private drafts, public servers, and organizational tools.
 
 ## Workspace
 
@@ -33,7 +33,7 @@ The Publishing Platform governs the transformation of private thoughts into publ
 
 ## AI Workspace
 
-The ultimate phase of Rifqi is the AI Workspace. Because the system's database contains highly structured, semantically connected, and historically rich records of the owner's knowledge and work, it forms the perfect context for localized artificial intelligence models. The AI Workspace does not generate generic text; it acts as a personalized cognitive companion that understands the owner's past readings, project histories, and conceptual relationships, assisting in research synthesis, task prioritization, and editing.
+The ultimate phase of Rifqi is the AI Workspace. Because the system's database contains highly structured, semantically connected, and historically rich records of the owner's knowledge and work, it forms the perfect context for specialized artificial intelligence models. The AI Workspace does not generate generic text; it acts as a personalized cognitive companion that understands the owner's past readings, project histories, and conceptual relationships, assisting in research synthesis, task prioritization, and editing.
 
 ---
 

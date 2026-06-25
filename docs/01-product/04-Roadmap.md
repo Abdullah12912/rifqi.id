@@ -1,6 +1,6 @@
 # Roadmap
 
-- **Version**: 1.0
+- **Version**: 1.1
 - **Status**: Approved
 - **Owner**: CTO
 - **Last Updated**: 2026-06-26
@@ -21,13 +21,13 @@
 - **Deliverables**:
   - Markdown parser capable of extracting structured frontmatter metadata.
   - Relational database schema for storing entity attributes and bidirectional links.
-  - Local CLI tools for scanning notes and resolving broken entity references.
+  - CLI tools for scanning notes and resolving broken entity references.
 - **Success Criteria**: 100% accuracy in parsing document frontmatter; broken links are automatically detected and flagged by the CLI.
 
 ## Phase 3: Workspace (Studio)
 - **Objectives**: Develop the private administrative interface. Allow the owner to manage their data, create nodes, and view their personal graph.
 - **Deliverables**:
-  - Secure local studio app interface.
+  - Secure studio app interface.
   - Form-based entity creation and editing interfaces.
   - Task board and project tracking dashboards.
   - Interactive visualization of the semantic knowledge graph.
@@ -45,14 +45,14 @@
 - **Objectives**: Build the high-performance public portal. Emphasize accessibility, SEO, readability, and design consistency.
 - **Deliverables**:
   - Static site generation layouts for all public entities (Articles, Projects, Learnings, Journey Events).
-  - Global Search search bar using localized indexes.
+  - Global Search search bar using unified indexes.
   - Clean CSS theme with standard typography scales.
 - **Success Criteria**: 100% Lighthouse SEO score, load time under one second, and fully functional keyboard navigation.
 
 ## Phase 6: Intelligence
-- **Objectives**: Integrate local context models to act as a personalized cognitive companion.
+- **Objectives**: Integrate specialized context models to act as a personalized cognitive companion.
 - **Deliverables**:
-  - Local vector embeddings generator for all documents.
+  - Vector embeddings generator for all documents.
   - Semantic search index and semantic similarity queries.
   - Contextual recommendation module (suggests related books or notes when writing).
 - **Success Criteria**: Vector search returns semantically relevant documents with near-zero latency, and suggestions appear instantly.
@@ -70,7 +70,7 @@
 - **Deliverables**:
   - Plugin architecture for extending workspace dashboards.
   - Native runtime environment for custom user scripts.
-  - Offline-first desktop and mobile workspace interfaces.
+  - Responsive desktop and mobile workspace interfaces.
 - **Success Criteria**: Custom developer scripts can read and write to the database using clean, sandboxed API interfaces.
 
 ---
